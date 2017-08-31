@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.konka.carddesignlearn.MyViewActivity">
+
+    <com.konka.carddesignlearn.MyTopBar
+        xmlns:topbar="http://schemas.android.com/apk/res/com.konka.carddesignlearn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        topbar:leftText="Left"
+        topbar:leftTextColor="@color/colorAccent"
+        topbar:leftBackground="@drawable/help_item_click"
+        topbar:rightText="Right"
+        topbar:rightTextColor="@color/colorAccent"
+        topbar:rightBackground="@drawable/help_item_click"
+        topbar:title="Title"
+        topbar:titleTextColor="@color/colorAccent"
+        topbar:titleTextSize="10sp">
+
+    </com.konka.carddesignlearn.MyTopBar>
+
+
+</android.support.constraint.ConstraintLayout>
